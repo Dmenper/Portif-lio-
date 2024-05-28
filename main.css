@@ -1,0 +1,84 @@
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  
+  .navport{
+    background: linear-gradient(90deg, rgba(223,199,188,1) 25%, rgba(223,216,213,1) 49%, rgba(228,198,181,1) 72%);
+    animation: gradient-animation 18s ease infinite;
+    padding:1rem ;
+    margin:0;
+    
+    
+  }
+    
+  .nav-link{
+    color: rgb(53, 53, 80);
+  }
+
+.gradient-background{
+  background-image: url(./image/notebook.jpg);
+  background-size: cover;
+  margin-top: 1rem;
+  }
+  
+  
+.img-logo{
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.img-contato{
+  border-style:outset;
+  border-radius: 20%;
+  
+}
+
+.formacao{
+ margin: 3rem;
+}
+
+.organize{
+background-color: #dfd8d5;
+margin: 3rem;
+}
+
+.about{
+ margin-top: 2rem;
+ margin-left: 1rem ;
+ margin-right: 2rem;
+
+}
+
+.prof{
+  margin: 2rem;
+  
+}
+
+.foo_port{
+  background: linear-gradient(90deg, rgba(223,199,188,1) 25%, rgba(223,216,213,1) 49%, rgba(228,198,181,1) 72%);
+  animation: gradient-animation 18s ease infinite;
+  padding:1rem ;
+  margin:0;
+}
+
+.mailtel{
+  margin: 1rem;
+}
+
+.job{
+  margin-top: 3rem;
+}
+
+.container{
+  padding: 1rem;
+}
+
+
